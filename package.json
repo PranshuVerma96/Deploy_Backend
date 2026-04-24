@@ -1,0 +1,20 @@
+{
+  "name": "01_chai_deploy",
+  "version": "1.0.0",
+  "description": "a basic app to deploy",
+  "keywords": [
+    "node"
+  ],
+  "license": "ISC",
+  "author": "Pranshu verma",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  }
+}
