@@ -15,7 +15,7 @@ const App = () => {
       });
   });
 
-  return (
+  return(
     <div className="divBox">
       <h1>Pranshu Verma and Full Stack || Youtube</h1>
       <p>Jokes : {jokes.length}</p>
