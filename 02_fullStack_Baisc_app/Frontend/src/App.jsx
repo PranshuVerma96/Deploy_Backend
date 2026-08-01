@@ -4,7 +4,7 @@ import { useEffect } from "react";
 const App = () => {
   const [jokes, setJokes] = useState([]);
 
-  useEffect(() => {
+  useEffect(() =>{
     axios
       .get("/api/jokes")
       .then((response) => {
